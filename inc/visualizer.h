@@ -6,7 +6,7 @@
 /*   By: mcaro-ro <mcaro-ro@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 19:19:00 by mcaro-ro          #+#    #+#             */
-/*   Updated: 2025/02/14 02:52:18 by mcaro-ro         ###   ########.fr       */
+/*   Updated: 2025/02/14 04:43:18 by mcaro-ro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,12 @@
 # define WIN_HEIGHT 800
 
 # define COLOR_WHITE	0xFFFFFF
-# define COLOR_ORANGE	0xFe0000
-# define COLOR_VIOLET	0x8B00FF
-# define COLOR_RED		0xFF0000
 # define COLOR_BLACK	0x000000
+# define COLOR_RED		0xFF0000
+# define COLOR_GREEN	0x00FF00
+# define COLOR_BLUE		0x0000FF
+# define COLOR_YELLOW	0xFFFF00
+# define COLOR_VIOLET	0x8B00FF
 
 # define VISUALIZER "Visualizer"
 

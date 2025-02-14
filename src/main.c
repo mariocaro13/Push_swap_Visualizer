@@ -50,7 +50,7 @@ void update_stacks(t_vars *vars, FILE *pipe) {
     while (fgets(line, sizeof(line), pipe) != NULL) {
         line[strcspn(line, "\n")] = 0;
         execute_operation(vars, line);
-        usleep(5000000);
+        usleep(100000);
     }
     vars->rendering = 0;
 }
