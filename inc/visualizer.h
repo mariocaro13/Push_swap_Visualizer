@@ -6,7 +6,7 @@
 /*   By: mcaro-ro <mcaro-ro@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 19:19:00 by mcaro-ro          #+#    #+#             */
-/*   Updated: 2025/02/14 04:43:18 by mcaro-ro         ###   ########.fr       */
+/*   Updated: 2025/02/14 06:30:30 by mcaro-ro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,12 @@
 # include <stdbool.h>
 # include <time.h>
 
-# define WIN_WIDTH 1600
-# define WIN_HEIGHT 800
+# define WIN_WIDTH 1366
+# define WIN_HEIGHT 768
+
+#define MAX_BAR_WIDTH  (WIN_HEIGHT - 40)
+#define MAX_BAR_HEIGHT  (WIN_HEIGHT * 0.8)
+#define MIN_BAR_HEIGHT  1
 
 # define COLOR_WHITE	0xFFFFFF
 # define COLOR_BLACK	0x000000

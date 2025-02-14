@@ -50,9 +50,10 @@ void update_stacks(t_vars *vars, FILE *pipe) {
     while (fgets(line, sizeof(line), pipe) != NULL) {
         line[strcspn(line, "\n")] = 0;
         execute_operation(vars, line);
-        usleep(100000);
+        usleep(10000);
     }
     vars->rendering = 0;
+	draw_counter(vars);
 }
 
 int main(int argc, char **argv) {
